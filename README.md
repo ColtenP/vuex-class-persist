@@ -2,9 +2,14 @@
 
 Note: this project is a wrapper around Vuex-Persist and is not intended to steal any of ChampionSwimmer's code.
 
+## Features
+
+* All features found in Vuex-Persist
+* Ability to persist instances of classes in localStorage
+
 ## Usage
 
-The usage and creation is all the same as vuex-persist, with one added parameter when calling the 
+The usage and creation is all the same as vuex-persist, except you also pass along an array of your classes so vuex-class-persist knows which classes to restore back to after the state has been reloaded from storage.
 
 ### Steps
 
