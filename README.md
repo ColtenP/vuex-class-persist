@@ -2,6 +2,8 @@
 
 Note: this project is a wrapper around Vuex-Persist and is not intended to steal any of ChampionSwimmer's code.
 
+[Link to Vuex-Persist](https://github.com/championswimmer/vuex-persist)
+
 ## Features
 
 * All features found in Vuex-Persist
