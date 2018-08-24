@@ -1,6 +1,6 @@
 {
   "name": "vuex-class-persist",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.1",
   "description": "",
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
@@ -11,17 +11,22 @@
   "files": [
     "lib"
   ],
+  "url": "https://github.com/ColtenP/vuex-class-persist",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ColtenP/vuex-class-persist.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Colten Pilgreen <coltenpilgreen@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@types/lodash": "^4.14.116",
     "lodash": "^4.17.10",
     "typescript": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-persist": "^1.4.3"
   },
   "devDependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.17",
+    "@types/lodash": "^4.14.116"
   }
 }
