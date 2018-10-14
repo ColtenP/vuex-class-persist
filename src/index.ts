@@ -10,7 +10,7 @@ export function saveClasses (entity: any, classes: [any]): any {
   if (Array.isArray(entity)) {
     return entity.map(property => saveClasses(property, classes))
   } else if (entity != null && typeof entity === 'object') {
-    console.log(entity.constructor.name)
+    //console.log(entity.constructor.name)
     if (classes.some((c: any) => c && c.name === entity.constructor.name)) {
       entity.__class = entity.constructor.name
     }
